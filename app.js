@@ -1,9 +1,9 @@
 /**
- * Face Merge Application
+ * Face Mash Application
  * Main application logic for the face morphing web app
  */
 
-class FaceMergeApp {
+class FaceMashApp {
     constructor() {
         this.morpher = new FaceMorpher();
         this.face1 = null;
@@ -213,5 +213,5 @@ class FaceMergeApp {
 
 // Initialize app when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
-    new FaceMergeApp();
+    new FaceMashApp();
 });
